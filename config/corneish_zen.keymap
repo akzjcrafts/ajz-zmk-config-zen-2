@@ -25,10 +25,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&to 1             &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E   &mt NUMBER_4 R   &mt N5 T     &mt NUMBER_6 Y  &mt N7 U  &mt N8 I   &mt N9 O  &mt N0 P  &mt RIGHT_BRACKET LEFT_BRACKET
-&mt TAB KP_ENTER  &kp A           &kp S           &mt LS(LC(C)) D  &mt LS(LC(V)) F  &kp G        &kp H           &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&sk LEFT_SHIFT    &mt LEFT_GUI Z  &mt K_COPY X    &mt K_CUT C      &mt K_PASTE V    &kp B        &kp N           &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp BACKSLASH
-                                                  &kp DEL          &kp BACKSPACE    &kp SPACE    &kp SPACE       &kp ESC   &to 2
+&to 1             &mt NUMBER_1 Q    &mt NUMBER_2 W     &mt NUMBER_3 E   &mt NUMBER_4 R   &mt N5 T            &mt NUMBER_6 Y  &mt N7 U  &mt N8 I   &mt N9 O  &mt N0 P  &mt RIGHT_BRACKET LEFT_BRACKET
+&mt TAB KP_ENTER  &mt LEFT_ARROW A  &mt RIGHT_ARROW S  &mt LS(LC(C)) D  &mt LS(LC(V)) F  &mt UP_ARROW G      &kp H           &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&sk LEFT_SHIFT    &mt LEFT_GUI Z    &mt K_COPY X       &mt K_CUT C      &mt K_PASTE V    &mt DOWN_ARROW B    &kp N           &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp BACKSLASH
+                                                       &kp DEL          &kp BACKSPACE    &kp SPACE           &kp SPACE       &kp ESC   &to 2
             >;
         };
 
